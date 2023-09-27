@@ -27,7 +27,7 @@ export default {
 </script>
 <style>
 .main-top-wrapper {
-  background: #292256;
+  background: #910909;
   position: relative;
   padding: 157px 0 88px;
 }

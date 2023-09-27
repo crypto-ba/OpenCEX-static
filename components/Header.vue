@@ -210,7 +210,7 @@ export default {
 .header-btn {
   width: 102px;
   height: 46px;
-  border: 1px solid #483D89;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   text-align: center;
   color: #fff;
@@ -226,7 +226,7 @@ export default {
 .header__language-current {
   width: 102px;
   height: 46px;
-  border: 1px solid #483D89;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   text-align: center;
   color: #fff;
@@ -239,7 +239,7 @@ export default {
   margin-left: 20px;
   width: 130px;
   height: 46px;
-  background: #6352CD;
+  background: #cd5252;
   border-radius: 5px;
   color: #fff;
   display: flex;

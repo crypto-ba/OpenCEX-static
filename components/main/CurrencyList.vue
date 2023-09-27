@@ -87,7 +87,7 @@ export default {
   background-color: #F8FAFD;
 }
 thead tr th {
-  background: #6352CD !important;
+  background: #cd5252 !important;
   padding-top: 25px;
   padding-bottom: 20px;
   color: #FFF;

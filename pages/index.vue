@@ -4,28 +4,8 @@
     <Block2 />
     <div class="trade">
       <div class="content" style="background-color: initial">
-        <h3 class="text-center trade-title">{{ $t('bitcoin_price') }}</h3>
-        <div class="graph-wrapper">
-          <div class="btc-chart" v-if="dataGraph.length" :key="dataGraph.length">
-            <div class="">
-              <div data-highcharts-chart="0" class="overflow-hidden graph-wrapper">
-                <div
-                  style="width: 100%"
-                  id="highcharts"
-                  dir="ltr"
-                  class="highcharts-container"
-                ></div>
-              </div>
-            </div>
-          </div>
-          <div class="text-error" v-else>
-            <div class="">
-              <div class="content-disabled">
-                <img width="100%" src="/img/graph-empty.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
+        <h3 class="text-center trade-title"></h3>
+
         <CurrencyList :filteredPairs="filteredPairs" />
       </div>
     </div>
@@ -45,7 +25,7 @@ import Block5 from '../components/main/Block5.vue'
 
 export default {
   name: "Blog",
-  components: { CurrencyList, Block1, Block2, Block4, Block5 },
+  components: { CurrencyList, Block1, Block2, Block4 },
   head() {
     return {
       title: `${this.$config.axios.title} ${this.$t('title')}`,
@@ -185,7 +165,7 @@ export default {
             type: "areaspline",
             color: "#FFF",
             fillOpacity: 0.2,
-            lineColor: "#6352CD",
+            lineColor: "#cd5252",
             tooltip: {
               valueDecimals: 2,
             },
